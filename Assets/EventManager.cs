@@ -7,6 +7,7 @@ public class EventManager : MonoBehaviour
 {
     public delegate void ClickAction(); // delegate void with no signature
     public static event ClickAction OnClicked;
+    
 
 
 
@@ -22,7 +23,7 @@ public class EventManager : MonoBehaviour
 
     public void Start()
     {
- 
+
     }
 
     public int IntButton()
